@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import Logo from "./dojo-logo.png";
+import Logo from "./helpmate.png";
 
 import CreateForm from "../tickets/create/CreateForm";
 
@@ -9,12 +9,12 @@ export default function Navbar() {
     <nav>
       <Image
         src={Logo}
-        alt="Dojo Helpdesk logo"
+        alt="Help Mate logo"
         width={70}
         placeholder="blur"
         quality={100}
       />
-      <h1>Dojo Helpdesk</h1>
+      <h1>HelpMate</h1>
       <Link href="/">Dashboard</Link>
       <Link href="/tickets">Tickets</Link>
     </nav>
